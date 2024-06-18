@@ -1,0 +1,53 @@
+/* header1 */
+
+.header1 {
+    padding: 40px 50px;
+    min-height: 750px;
+
+}
+
+.header1__wrapper {
+    padding: 0 15px;
+    max-width: 1400px;
+    /* Додав це, щоб вирівнювати за центром */
+}
+
+.header1__title {
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.line {
+    width: 100vw;
+    /* Змінив ширину на 100vw (відносно всього видимого вікна) */
+    height: 1px;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: calc(-50vw + 50%);
+    /* Вирівнюємо вліво на 50% ширини вікна */
+}
+
+.header1__title1 {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+}
+
+.checkmark {
+    text-align: center;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.header1__title2 {
+    margin-top: 63px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px; /* Додав цей маргін */
+}

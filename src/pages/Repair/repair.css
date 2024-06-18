@@ -1,0 +1,142 @@
+/* header3 */
+.header3 {
+    padding: 40px 50px;
+    min-height: 1300px;
+}
+
+.header3__wrapper {
+    padding: 0 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header3__title {
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about1 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.header3__titles {
+    display: flex;
+    justify-content: center; /* Вирівнювання по центру */
+    margin-top: 45px;
+    margin-bottom: 35px; /* Додав відступ знизу */
+}
+
+.header3__subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.header3__subtitle1 {
+    margin-top: 35px;
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+}
+
+.form-container {
+    width: 440px;
+    min-height: 550px;
+    border-radius: 10px;
+    background-color: #e4c9c2;
+    padding: 20px;
+    margin-top: 20px; /* Відстань між заголовком і формою */
+    margin-bottom: 20px; /* Відстань між формою та наступним заголовком */
+}
+
+
+.form-group {
+    margin-top: 20px;
+}
+
+.input-field,
+.input-field1 {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+}
+
+.input-field1 {
+    height: 150px;
+}
+
+.title1, .title2, .title3, .title4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    margin-top: 30px;
+}
+
+/* Стиль для чорної лінії під ціною */
+.line1 {
+  width: 100%;
+  height: 2px; /* Товщина лінії */
+  background-color: #000;
+  margin-top: 10px; /* Відстань між ціною і лінією */
+}
+
+
+/* Стиль для ціни */
+.repair-item .price {
+    font-size: 19px; /* Збільшений розмір шрифту */
+    color: #000; /* Чорний колір */
+    margin-bottom: 10px; /* Відстань між ціною і лінією */
+}
+
+.btn5 {
+    display: block;
+    width: auto;
+    padding: 10px 36px;
+    
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #FFC600;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+    display: block;
+    width: auto;
+    padding: 10px 36px;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #FFC600;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover {
+    opacity: 0.8;
+}
+
+.title5, .title6, .title7, .title8 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+

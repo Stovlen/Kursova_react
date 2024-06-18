@@ -1,0 +1,42 @@
+/* Nav */
+
+.nav {
+    padding: 10px 0;
+    background-color: #43B02A;
+    color: #FFFFFF;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.main {
+    font-size: 28px;
+    font-weight: 500;
+    flex-grow: 1;
+    /* додано flex-grow */
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-list_link{
+    color: #FFFFFF;
+    transition: opacity 0.2s ease-in;
+}
+
+.nav-list_link:hover {
+    opacity: 0.85px;
+}
+
+.nav-list_link:active {
+    position: relative;
+}

@@ -1,0 +1,21 @@
+/* Custom Styles */
+
+/* Footer */
+.footer {
+    background-color: #43B02A;
+    padding: 40px 0 43px;
+    color: white;
+}
+
+.social-icon {
+    width: 40px; /* Збільшено розмір іконок */
+}
+
+.about-list_link {
+    color: white;
+    transition: opacity 0.2s ease-in;
+}
+
+.about-list_link:hover {
+    opacity: 0.9; /* Зменшено ефект зникання */
+}

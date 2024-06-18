@@ -1,0 +1,18 @@
+/* Orders.css */
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.order-container {
+  margin-bottom: 600px; /* Додано додатковий відступ знизу */
+}

@@ -1,0 +1,20 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap');
+
+/**{
+    border: 1px solid red;
+}*/
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: normal;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1490px;
+    /* змінено width на max-width */
+}
+
